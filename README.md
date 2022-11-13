@@ -1,5 +1,5 @@
-# 02_Portfolio_Website_Flask_ready_for_Heroku
-This is a one-page website where you can show all of your projects that you have worked on so far. It is ready to be published and launched on Heroku (https://www.heroku.com/). Later, you can easily share the link with anyone who is interested in your work. The Portfolio Website was developed using the Python framework Flask, CSS, HTML, and Java Script with AJAX (fetch). The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/theme/freelancer), Bootstrap, and CSS. Additionally, the website is fully mobile responsive with an adaptive navigation bar, and it has a functional, dynamic contact form, which means that after submitting it, it won't reload the entire page. This functionality is achieved by sending a Java Script AJAX request ([fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)) to the Flask server in order to send the data from the form and later validate it on the server side. If successful, the server will send an email that will consist of the data from the contact form. The server will return json data to the website whether or not the process was successful, which will be rendered with JS as a short message below the contact form. In modern browsers, there is no need to use "AJAX" methods like XMLHttpRequest() or jQuery; the modern, built-in JavaScript solution to make these requests from a page is with the use of fetch. All projects listed on the website have a detailed view in a modal that will appear after selecting one of the projects.
+# Portfolio_Website_Flask_ready_for_Heroku
+This is a one-page Portfolio Website where you can show all of your projects that you have worked on so far. It is ready to be published and launched on Heroku (https://www.heroku.com/). Later, you can easily share the link with anyone who is interested in your work. The Portfolio Website was developed using the Python framework Flask, CSS, HTML, and Java Script with AJAX (fetch). The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/theme/freelancer), Bootstrap, and CSS. Additionally, the website is fully mobile responsive with an adaptive navigation bar, and it has a functional, dynamic contact form, which means that after submitting it, it won't reload the entire page. This functionality is achieved by sending a Java Script AJAX request ([fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)) to the Flask server in order to send the data from the form and later validate it on the server side. If successful, the server will send an email that will consist of the data from the contact form. The server will return json data to the website whether or not the process was successful, which will be rendered with JS as a short message below the contact form. In modern browsers, there is no need to use "AJAX" methods like XMLHttpRequest() or jQuery; the modern, built-in JavaScript solution to make these requests from a page is with the use of fetch. All projects listed on the website have a detailed view in a modal that will appear after selecting one of the projects.
 
 ---
 
@@ -9,7 +9,7 @@ Deploying your web application with heroku </br>
 https://www.heroku.com/ </br>
 
 Flask</br>
-https://flask.palletsprojects.com/en/2.1.x/</br>
+https://flask.palletsprojects.com/en/2.2.x/</br>
 
 Flask - AJAX - JavaScript, fetch, and JSON</br>
 https://flask.palletsprojects.com/en/2.2.x/patterns/javascript/
@@ -75,6 +75,9 @@ GITHUB = "https://github.com/your_account"</br>
 
 ![Screenshot](docs/img/01_website_view.png)</br>
 
+---
+
+**Example view - detailed view - modal:**</br>
 ![Screenshot](docs/img/02_website_view_modal_portfolio.png)</br>
 
 ---

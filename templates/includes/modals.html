@@ -381,3 +381,56 @@
         </div>
     </div>
 </div>
+<!-- Portfolio Modal 9-->
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Portfolio Website - Flask - Heroku ready</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename='assets/img/portfolio/09_portfolio_website_full.png') }}" alt="09_portfolio_website_full" />
+                            <!-- Portfolio Modal - Text-->
+                            <p class="mb-4">
+                                This is a one-page Portfolio Website where you can show all of your projects that you have worked on so far. 
+                                It is ready to be published and launched on Heroku (https://www.heroku.com/). Later, you can easily share the 
+                                link with anyone who is interested in your work. The Portfolio Website was developed using the 
+                                Python framework Flask, CSS, HTML, and Java Script with AJAX (fetch). The styling was done with the help of 
+                                additional Bootstrap templates (https://startbootstrap.com/theme/freelancer), Bootstrap, and CSS. 
+                                Additionally, the website is fully mobile responsive with an adaptive navigation bar, and it has a 
+                                functional, dynamic contact form, which means that after submitting it, it won't reload the entire page. 
+                                This functionality is achieved by sending a Java Script AJAX request (fetch) to the Flask server in order 
+                                to send the data from the form and later validate it on the server side. If successful, the server 
+                                will send an email that will consist of the data from the contact form. The server will return json data 
+                                to the website whether or not the process was successful, which will be rendered with JS as a short message 
+                                below the contact form. In modern browsers, there is no need to use "AJAX" methods like XMLHttpRequest() 
+                                or jQuery; the modern, built-in JavaScript solution to make these requests from a page is with the use of fetch. 
+                                All projects listed on the website have a detailed view in a modal that will appear after selecting one of the projects.<br>
+                                <br>
+                                Check out the project for more details.
+                            </p>
+                            <button class="btn btn-primary" onClick="location.href='https://github.com/artursniegowski/Portfolio_Website_Flask_ready_for_Heroku'">
+                                <i class="fas fa-regular fa-folder-open"></i>
+                                Open Project
+                            </button>
+                            <button class="btn btn-danger" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
