@@ -5,7 +5,7 @@ This is a one-page Portfolio Website, a unique way to showcase my work and let o
 
 ---
 
-Useful Links:
+Useful Links: 
 
 Deploying your web application with heroku </br>
 https://www.heroku.com/ </br>
